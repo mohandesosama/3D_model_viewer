@@ -1,5 +1,4 @@
-# 3D_model_viewer
-Simple 3D Model Viewer
+Simple 3D OpenGL Model Viewer
  
  Requirements
            
