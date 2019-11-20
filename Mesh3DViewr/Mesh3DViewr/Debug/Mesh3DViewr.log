@@ -1,0 +1,12 @@
+﻿Build started 11/19/2016 8:33:27 PM.
+     1>Project "C:\Users\osama-er\Dropbox\Coding 2016\OpenGL Viewer\Mesh3DViewr\Mesh3DViewr\Mesh3DViewr.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\osama-er\Dropbox\Coding 2016\OpenGL Viewer\Mesh3DViewr\Mesh3DViewr\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\Mesh3DViewr.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Mesh3DViewr.cpp
+         Mesh3DViewr.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(376): error C2381: 'exit' : redefinition; __declspec(noreturn) differs
+                 c:\users\osama-er\dropbox\coding 2016\opengl viewer\mesh3dviewr\mesh3dviewr\include\gl\glut.h(146) : see declaration of 'exit'
+     1>Done Building Project "C:\Users\osama-er\Dropbox\Coding 2016\OpenGL Viewer\Mesh3DViewr\Mesh3DViewr\Mesh3DViewr.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.36
