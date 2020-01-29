@@ -1,14 +1,14 @@
-Simple 3D OpenGL Model Viewer
+# Simple 3D OpenGL Model Viewer
  
- Requirements
+ ## Requirements
            
 The viewer should be able to load the following 5 models:
  
-1. Cube
-2. Teapot
-3. Jack (see text Figure 5.61)
-4. A mesh from "WINEGLASS.3VN" file (see text Figure 6.15, 6.17, 6.69 - Mesh.h)
-5. Any arbitrary model of your own (the more complex, the better)
+* Cube
+* Teapot
+* Jack (see text Figure 5.61)
+* A mesh from "WINEGLASS.3VN" file (see text Figure 6.15, 6.17, 6.69 - Mesh.h)
+* Any arbitrary model of your own (the more complex, the better)
  
 These models should be loaded by pressing the corresponding keys 1, 2, 3, 4, 5. (At any time, only a single object is displayed and manipulated).
  
@@ -20,11 +20,14 @@ The object is initially centered at the global origin O (when loaded).
  
 Transformations on the object should be enabled as follows:
  
-Rotation: The user first presses "r" to set the transformation mode to rotation. Then uses "x" for x-roll with positive angle, and "X" for x-roll with negative angle. If the user keeps the key pressed down, rotation should be done continuously (use double buffer for smooth animation). Similarly, "y" and "Y" are used for y-roll, and "z" and "Z" for z-roll.
+### Rotation: 
+The user first presses "r" to set the transformation mode to rotation. Then uses "x" for x-roll with positive angle, and "X" for x-roll with negative angle. If the user keeps the key pressed down, rotation should be done continuously (use double buffer for smooth animation). Similarly, "y" and "Y" are used for y-roll, and "z" and "Z" for z-roll.
  
-Translation: The user first presses "t" to set the transformation mode to translation. Then "x" for positive x-translation, and "X" for negative x-translation. Similarly, "y", "Y", "z", "Z" are used for y- or z-translation.
+### Translation: 
+The user first presses "t" to set the transformation mode to translation. Then "x" for positive x-translation, and "X" for negative x-translation. Similarly, "y", "Y", "z", "Z" are used for y- or z-translation.
  
-Scaling: Only uniform scaling is allowed (Sx = Sy = Sz). The user first presses "s" to set the transformation mode to scaling. Then "x" for expanding (Sx > 1), and "X" for shrinking (0 < Sx < 1). No negative scaling factor is allowed.
+### Scaling: 
+Only uniform scaling is allowed (Sx = Sy = Sz). The user first presses "s" to set the transformation mode to scaling. Then "x" for expanding (Sx > 1), and "X" for shrinking (0 < Sx < 1). No negative scaling factor is allowed.
  
 Note that the user may perform a series of transformations in a row (for example, first scale by factor 3.5, then translate by (3.0, 2.5, -1.9), then rotate by ..., then translate by ... ), in which case their accumulated effect must show on the transformed object.
  
@@ -34,11 +37,11 @@ The camera can be moved (rotated) around the origin to see the object from diffe
  
 The object can be displayed as wireframe, flat-shaded, or smooth-shaded. These 3 modes should be toggled by key "w".
  
- Sample code
+ ## Sample code
            
 SimpleViewer.cpp (You can build on this program)
  
-Sample Mesh files (*.3VN)
+## Sample Mesh files (*.3VN)
            
 BUCK.3VN
 BUCKY.3VN
